@@ -7,20 +7,16 @@ Pastikan Node.js dan npm (Node Package Manager) sudah terinstal di komputer Anda
 2. Inisialisasi Proyek Node.js:
 Buat direktori baru untuk proyek Anda dan buka terminal di dalamnya. Jalankan perintah berikut untuk membuat package.json:
 
-bash
-Copy code
+
 npm init -y
 3. Instalasi Framework Web:
 Pilih dan instal framework web Node.js. Beberapa framework yang populer adalah Express.js, Koa.js, dan Hapi.js. Contoh ini menggunakan Express.js:
 
-bash
-Copy code
+
 npm install express
 4. Buat File Utama Aplikasi:
 Buat file utama aplikasi, misalnya app.js, dan mulai mengkode aplikasi Anda di dalamnya.
 
-javascript
-Copy code
 // app.js
 
 const express = require('express');
@@ -41,8 +37,6 @@ Database Integration: Gunakan database seperti MongoDB, MySQL, atau PostgreSQL u
 Middleware: Menambahkan middleware untuk menangani permintaan HTTP, otorisasi, validasi, dan lainnya.
 Contoh menggunakan EJS sebagai template engine:
 
-bash
-Copy code
 npm install ejs
 javascript
 Copy code
@@ -61,8 +55,6 @@ app.get('/profil', (req, res) => {
 6. Jalankan Aplikasi Anda:
 Jalankan aplikasi Anda dengan perintah:
 
-bash
-Copy code
 node app.js
 Sekarang aplikasi Anda harus berjalan dan dapat diakses di http://localhost:3000.
 
